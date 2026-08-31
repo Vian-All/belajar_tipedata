@@ -1,3 +1,5 @@
+import 'dart:async';
+
 void main() {
   //String nama = 'Deni';
   //int umur = 100;  
@@ -41,4 +43,41 @@ void main() {
   //print(namamhs.add);
   //print(namamhs.remove(3));
   //print(namamhs.indexOf(Wilson3));
+
+  //set => array yang unik
+  //Set angka = {1, 2, 3, 4, 1, 2, 3, 5};
+  //print (angka.elementAt(2));
+
+  //map => array yang memiliki kay dan value
+  //Map datamhs = {'nama': 'ferry', 'umur': 30, 'kelas': 'A'};
+  //print(datamhs['kelas']);
+
+  //List datamhs =[
+  //  {'nama': 'anton', 'umur': 30, 'kelas': 'A'},
+  //  {'nama': 'deka', 'umur': 20, 'kelas': 'P'},
+  //  {'nama': 'ferry', 'umur': 25, 'kelas': 'Q'},
+  //];
+
+  //print('Halo nama saya ${datamhs[1]['nama']}');
+
+  //final vs corst
+  //final String nama = 'Deni';
+  //nama = 'Ferry';
+
+  //final String nama; //= 'Deni';
+  //nama = 'Ferry';
+  //nama = 'Deka';
+
+  //const int angka; //= 100;
+  //angka = 200;
+
+  //const int angka = 100;
+  //angka = 200;
+
+  //Dart => Null Safety
+  //String? nama;
+  //print(nama);
+
+  //int? angka;
+  //print(angka);
 }
